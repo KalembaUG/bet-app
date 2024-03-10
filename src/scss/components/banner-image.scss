@@ -1,0 +1,17 @@
+@use '../abstracts' as *;
+
+.banner-image{
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-top: 30px;
+    img{
+        border-radius: 10px;
+        border:0.5px $secondary-color solid;
+        max-width: 90%;
+        
+    }
+}

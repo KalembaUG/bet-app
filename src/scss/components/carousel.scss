@@ -1,0 +1,9 @@
+@use '../abstracts' as *;
+
+
+.carousal-image-div{
+    margin:10px;
+    img{
+        border-radius: 10px;
+    }
+}

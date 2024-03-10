@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.home-container{
+    display :flex;
+    flex-direction: column;
+    height: fit-content;
+    min-height: 100%;
+    height: 1px;
+    box-sizing: border-box;
+    padding-top: 104px;
+
+}
