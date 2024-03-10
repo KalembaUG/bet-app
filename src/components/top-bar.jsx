@@ -1,6 +1,6 @@
 import React from 'react';
 import sheildImg from '../assets/sheild-with-icon-01.png';
-import logo from '../assets/logo.png'
+import logo from '../assets/final_logo.PNG'
 
 const TopBar = () => {
     return (
