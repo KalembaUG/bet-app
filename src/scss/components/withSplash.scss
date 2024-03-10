@@ -1,8 +1,9 @@
+@use '../abstracts' as *;
 .splash-logo{
  align-self: center;
  margin :auto;
- height :40px;
- width : 40px;
+ height :120px;
+ min-width: 120px;
 }
 .splash-conatiner{
     height: 100vh;
@@ -11,6 +12,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: $secondary-color;
     margin :0;
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
+import logo from '../assets/final_logo.PNG';
 
 
 function SplashMessage() {
@@ -26,7 +26,7 @@ export default function withSplashScreen(WrappedComponent) {
                     this.setState({
                         loading: false,
                     });
-                }, 1000)
+                }, 3000)
             } catch (err) {
                 console.log(err);
                 this.setState({
@@ -37,8 +37,8 @@ export default function withSplashScreen(WrappedComponent) {
 
         render() {
             // while checking user session, show "loading" message
-            // if (this.state.loading)
-                // return SplashMessage();
+            if (this.state.loading)
+                return SplashMessage();
 
             // otherwise, show the desired route
             return <WrappedComponent {...this.props} />;

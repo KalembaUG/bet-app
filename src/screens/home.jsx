@@ -7,6 +7,7 @@ import ImageCarousel from '../components/image-carousel';
 import { Images } from '../components/image-carousel';
 import IconsRowTop from '../components/icons-row-top';
 import BannerImage from '../components/banner-image';
+import withSplashScreen from '../components/withSplashScreen';
 
 const Home = () => {
     return (
@@ -21,4 +22,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default withSplashScreen(Home);
