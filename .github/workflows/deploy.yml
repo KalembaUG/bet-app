@@ -23,6 +23,7 @@ jobs:
       - name: Verify Build Output
         run: |
           # List the files in the main folder for debugging purposes
+          cd build
           ls -l
           pwd
 
