@@ -17,4 +17,4 @@ jobs:
       
       - name: Send Deployment Webhook
         run: |
-          curl -X POST -H "Content-Type: application/json" -d '{"ref": "${{ github.ref }}", "repository": "${{ github.repository }}"}' https://webhooks.hostinger.com/deploy/42174b59ec72313c758f529c511feb0a
+          curl -X POST -H "Content-Type: application/json" -d '{"ref": "${{ github.ref }}", "repository": "${{ github.repository }}", "build_folder": "build"}' https://webhooks.hostinger.com/deploy/42174b59ec72313c758f529c511feb0a
