@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set up environment
+        run: |
+          # Set CI to false explicitly
+          echo "CI=false" >> $GITHUB_ENV
       - name: Build
         run: |
           npm install
