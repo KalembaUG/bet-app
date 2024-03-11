@@ -24,7 +24,8 @@ jobs:
         run: |
           # List the files in the main folder for debugging purposes
           ls -l
+          pwd
 
       - name: Send Deployment Webhook
         run: |
-          curl -X POST -H "Content-Type: application/json" -d '{"ref": "${{ github.ref }}", "repository": "${{ github.repository }}", "build_folder": "build"}' https://webhooks.hostinger.com/deploy/2ae9a0529577f8adc20668c6a181df3a
+          curl -X POST -H "Content-Type: application/json" -d '{"ref": "${{ github.ref }}", "repository": "${{ github.repository }}", "build_folder": "../../build"}' https://webhooks.hostinger.com/deploy/2ae9a0529577f8adc20668c6a181df3a
