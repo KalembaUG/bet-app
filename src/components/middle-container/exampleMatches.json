@@ -1,0 +1,1364 @@
+[
+    {
+      "id": "59ec9f30dd54476c5bf371e8d32bf33b",
+      "sport_key": "soccer_uefa_europa_league",
+      "sport_title": "UEFA Europa League",
+      "commence_time": "2024-04-11T19:00:00Z",
+      "home_team": "AC Milan",
+      "away_team": "Roma",
+      "bookmakers": [
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-03-16T14:58:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:59Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.1
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.78
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.1
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-03-16T14:58:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:58Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.04
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.68
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.55
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.1
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.05
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.65
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.0
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "suprabets",
+          "title": "Suprabets",
+          "last_update": "2024-03-16T14:58:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:59Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.09
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.84
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.57
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-03-16T14:59:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:59:00Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.0
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.03
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.7
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.43
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.04
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.4
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.22
+                },
+                {
+                  "name": "Roma",
+                  "price": 4.1
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-03-16T15:01:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:58Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.05
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "AC Milan",
+                  "price": 2.04
+                },
+                {
+                  "name": "Roma",
+                  "price": 3.7
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.33
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "66ab5e073be1a3a9ebf1930021d27832",
+      "sport_key": "soccer_uefa_europa_league",
+      "sport_title": "UEFA Europa League",
+      "commence_time": "2024-04-11T19:00:00Z",
+      "home_team": "Liverpool",
+      "away_team": "Atalanta",
+      "bookmakers": [
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-03-16T14:58:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:58Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.8
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.38
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 6.1
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.32
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.43
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-03-16T14:58:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:59Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 8.0
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.42
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.39
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 6.5
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.5
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.36
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.8
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.37
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.25
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.35
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "suprabets",
+          "title": "Suprabets",
+          "last_update": "2024-03-16T14:58:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:59Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 8.1
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-03-16T14:59:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:59:00Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.5
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.36
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.69
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.36
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.07
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.0
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.38
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.2
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 870.0
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.45
+                },
+                {
+                  "name": "Draw",
+                  "price": 6.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-03-16T15:01:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:58Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.0
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.38
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Atalanta",
+                  "price": 7.85
+                },
+                {
+                  "name": "Liverpool",
+                  "price": 1.35
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.18
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30a6bd42a729ff5f5f81c8e9e496fd06",
+      "sport_key": "soccer_uefa_europa_league",
+      "sport_title": "UEFA Europa League",
+      "commence_time": "2024-04-11T19:00:00Z",
+      "home_team": "Benfica",
+      "away_team": "Marseille",
+      "bookmakers": [
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.05
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.55
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-03-16T14:58:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:58Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.03
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.56
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.1
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betclic",
+          "title": "Betclic",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 1.91
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.15
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.22
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-03-16T14:58:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:59Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.09
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.66
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.05
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.0
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.3
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "suprabets",
+          "title": "Suprabets",
+          "last_update": "2024-03-16T14:58:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:59Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.1
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.57
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-03-16T14:59:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:59:00Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.05
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.04
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.43
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.65
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.04
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.55
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.34
+                },
+                {
+                  "name": "Marseille",
+                  "price": 4.2
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-03-16T15:01:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:58Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.05
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.45
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Benfica",
+                  "price": 2.04
+                },
+                {
+                  "name": "Marseille",
+                  "price": 3.42
+                },
+                {
+                  "name": "Draw",
+                  "price": 3.6
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a55cdf4acfe824493d4caa4bb9bcdb58",
+      "sport_key": "soccer_uefa_europa_league",
+      "sport_title": "UEFA Europa League",
+      "commence_time": "2024-04-11T19:00:00Z",
+      "home_team": "Leverkusen",
+      "away_team": "West Ham United",
+      "bookmakers": [
+        {
+          "key": "unibet_eu",
+          "title": "Unibet",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.62
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.0
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "marathonbet",
+          "title": "Marathon Bet",
+          "last_update": "2024-03-16T14:58:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:58Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.6
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.45
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "onexbet",
+          "title": "1xBet",
+          "last_update": "2024-03-16T14:58:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:59Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.65
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.37
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sport888",
+          "title": "888sport",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.57
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nordicbet",
+          "title": "Nordic Bet",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.55
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.6
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "everygame",
+          "title": "Everygame",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.57
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.0
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "suprabets",
+          "title": "Suprabets",
+          "last_update": "2024-03-16T14:58:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:58:59Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.65
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.4
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "williamhill",
+          "title": "William Hill",
+          "last_update": "2024-03-16T14:59:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T14:59:00Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.55
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.5
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.33
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pinnacle",
+          "title": "Pinnacle",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.6
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.11
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betfair_ex_eu",
+          "title": "Betfair",
+          "last_update": "2024-03-16T15:02:00Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.63
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.1
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.2
+                }
+              ]
+            },
+            {
+              "key": "h2h_lay",
+              "last_update": "2024-03-16T15:02:00Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.67
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 6.8
+                },
+                {
+                  "name": "Draw",
+                  "price": 5.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "mybookieag",
+          "title": "MyBookie.ag",
+          "last_update": "2024-03-16T15:01:58Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:58Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.56
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.25
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "betonlineag",
+          "title": "BetOnline.ag",
+          "last_update": "2024-03-16T15:01:59Z",
+          "markets": [
+            {
+              "key": "h2h",
+              "last_update": "2024-03-16T15:01:59Z",
+              "outcomes": [
+                {
+                  "name": "Leverkusen",
+                  "price": 1.57
+                },
+                {
+                  "name": "West Ham United",
+                  "price": 5.38
+                },
+                {
+                  "name": "Draw",
+                  "price": 4.2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]

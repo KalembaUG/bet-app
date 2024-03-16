@@ -6,10 +6,12 @@ import { Route, Routes } from 'react-router-dom';
 import Store from './store.js';
 import Page404 from './screens/404.jsx';
 import { Provider } from 'react-redux';
+import WindowSize from './features/windowSize/windowSize.jsx';
 
 function App() {
   return (
     <Provider store={Store}>
+      <WindowSize/>
     <Routes>
          {
                     routes.map((data,idx) => (

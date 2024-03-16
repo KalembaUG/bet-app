@@ -23,6 +23,12 @@ jobs:
           # List the files in the main folder for debugging purposes
           ls -l
       
-      - name: Send Deployment Webhook
-        run: |
-          curl -X POST -H "Content-Type: application/json" -d '{"ref": "${{ github.ref }}", "repository": "${{ github.repository }}", "build_folder": "build"}' https://webhooks.hostinger.com/deploy/2ae9a0529577f8adc20668c6a181df3a
+     - name: Deploy to Hostinger
+        uses: easingthemes/ssh-deploy@v2.1.5
+        with:
+          server: ${{ secrets.HOSTINGER_HOST }}
+          username: ${{ secrets.HOSTINGER_USERNAME }}
+          password: ${{ secrets.HOSTINGER_PASSWORD }}
+          local_path: ./build
+          remote_path: /path/to/your/website
+          args: -avz --delete

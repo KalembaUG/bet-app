@@ -2,12 +2,15 @@
 
 .bottom-navigation{
     z-index: 10;
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 100%;
     position: fixed;
     bottom: 0;
     left:0;
+    @include mobile{
+        display: flex;
+    }
 
 
     button{
@@ -26,7 +29,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: white;
+    background-color: $secondary-color;
     height: 71px;
     z-index: 4;
     border-top: 1px solid rgb(215, 215, 215);
@@ -37,12 +40,15 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
+    color:white;
     .checked {
     font-weight: bold;
+    
     .nav-icon{
     border: none;
     border-radius: 50%;
     background-color: $secondary-color;
+    // color: white;
     }
     img{
         max-width: 100%;
@@ -55,7 +61,7 @@
 .checked {
     font-weight: bold;
     .nav-icon{
-    background-color: $secondary-color;
+    background-color: white;
     }
 
 }

@@ -2,6 +2,7 @@
 
 .nav-container{
 
+
         position: fixed;
         width: 100%;
         top: 0px;
@@ -92,14 +93,14 @@
 
 
 
-        display: flex;
+
         -webkit-box-align: center;
         align-items: center;
         width: 100%;
         background: $secondary-color;
 
 
-        display: flex;
+        display: none;
         height: 40px;
         -webkit-box-align: center;
         align-items: center;
@@ -134,7 +135,9 @@
                 }
             }
             box-shadow: 0 4px 8px $secondary-color; // Horizontal offset, vertical offset, blur radius, color
-
+@include mobile{
+        display: flex;
+}
 
 
 }

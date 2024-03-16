@@ -1,12 +1,24 @@
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { subscribeToTopBarChange ,topBarChanged} from '../features/navigation/navigationSlice';
+
+const NavBarItem = ({name}) => {
+    const dispatch = useDispatch();
+
+    const checked = useSelector(subscribeToTopBarChange) === name ? 'checked' : '';
+
+    return(
+        <div className={`nav-bar-item ${checked}`} onClick={(e)=>dispatch(topBarChanged(name))}><span>{ name}</span></div>
+    )
+}
 
 const NavBar = () => {
     return (
         <div className='nav-bar'>
-            <div className='nav-bar-item checked'><span>Sports</span></div>
-            <div className='nav-bar-item'><span>Casino</span></div>
-            <div className='nav-bar-item'><span>Live Casino</span></div>
-            <div className='nav-bar-item'><span>Promotions</span></div>
+            <NavBarItem name={'Sports'}/>
+            <NavBarItem name={'Live Now'}/>
+            <NavBarItem name={'Upcomming'}/>
+            <NavBarItem name={'Popular'}/>
         </div>
     );
 }

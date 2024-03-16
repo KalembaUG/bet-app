@@ -16,7 +16,7 @@ const BottomNavigation = () => {
     return (
         <div className='bottom-navigation'>
             <div className='icons-row'>
-                <BottomNavigationIcon name={"home"} icon={homeIcon} iconWhite={homeWhite} checked />
+                <BottomNavigationIcon name={"home"} icon={homeIcon} iconWhite={homeWhite} />
                 <BottomNavigationIcon name={"find"} icon={findIcon} iconWhite={findWhite} />
                 <BottomNavigationIcon name={"In-Play"} icon={inPlay} iconWhite={inplayWhite} />
                 <BottomNavigationIcon icon={betSlip} iconWhite={betSlipWhite} name={"Bet Slip"} />
