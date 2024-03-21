@@ -6,57 +6,18 @@
     
 }
 
-.right-navigation{
-    width: 20%;
-    // background-color: red;
-    border: 1px solid $secondary-color;
-
-}
 .sub-home-container{
     width: 60%;
 }
 
-.slip-container{
-    width: 35%;
-    // background-color: red;
-    border: 1px solid $secondary-color;
-}
-
-.sport-select-conatiner{
-
-        background: #fff;
-        border-bottom: 1px solid #252a2d;
-
-        
-    }
-    .sport-select-wrapper{
-        margin:8px 8px;
-
-}
-.sport-select{
-
-width: 80%;
-border-radius: 0px;
-border:none;
-&:focus{
-    border:none;
-}
-}
-
-.sport-opt{
-    border: none;
-    &:checked{
-        border: none;
-        background-color: none;
-    }
-    &:focus{
-        background-color: none;
-    }
-}
 @include mobile{
 
 
-    .right-navigation, .sub-home-container, .slip-container {
+     .sub-home-container, .slip-container {
         width: 100%;
+
+    }
+    .sub-main-container{
+        padding-bottom: 85px;
     }
 }

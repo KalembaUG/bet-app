@@ -37,11 +37,7 @@ export const sportsSlice = createSlice({
                 // console.log(action)
                 
                 state.sports = action.payload
-                // console.log(state.sports)
-                // for (let sport of state.sports) {
-                //     console.log(sport.group,'    ____   ',sport.details)
-                // }
-                
+
                 state.activeSports = state.sports.filter((sport) => sport.active == 1)
                 
                 let groupSet = new Set()

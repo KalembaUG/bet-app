@@ -4,7 +4,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     bottomNavSelected: 'home',
-    topBarSelected:'sports'
+    topBarSelected: 'sports',
+    rightNavSelected:'HOME'
     
 }
 export const navigationSlice = createSlice({
@@ -16,12 +17,16 @@ export const navigationSlice = createSlice({
         },
         topBarChanged: (state, action) => {
             state.topBarSelected = action.payload
+        },
+        rightNavChanged: (state, action) => {
+            state.rightNavSelected = action.payload
         }
     }
 })
 
 export default navigationSlice.reducer;
-export const { bottomNavChanged, topBarChanged } = navigationSlice.actions;
+export const { bottomNavChanged, topBarChanged ,rightNavChanged} = navigationSlice.actions;
 
 export const subscribeToBottomNavChange = (state) => state.navigation.bottomNavSelected;
 export const subscribeToTopBarChange = (state) => state.navigation.topBarSelected;
+export const subscribeToRightNavChange = (state) => state.navigation.rightNavSelected;

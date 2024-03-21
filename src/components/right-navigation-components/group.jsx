@@ -1,33 +1,62 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GroupHeading from './group-heading';
 import GroupItem from './group-item';
 import { useSelector } from 'react-redux';
 import { selectSportsGroups, subscribeToSelectStore } from '../../features/sports/sportsSlice';
+import { leagueToCountry ,mainGroupingsArray} from '../../constants';
 
 
-const Group = ({  }) => {
+const Group = ({ }) => {
+
+    
     const store = useSelector(subscribeToSelectStore);
-    // console.log(store);
     const selected = store.selected;
-    // console.log('***********',parseInt(selected))
     const groupsName = store.selectStoreArray[parseInt(selected)]
-    // console.log(groupsName)
+
+    //Drop down selected Group [football, basketBall ........]
     let groups = [];
+    const countryGroups ={}
     if (store.store[groupsName]) {
-        // console.log(groups)
         groups = store.store[groupsName].flat();
         
     }else{return}
 
+    // console.log('-------------', groups)
+    for (let g of groups) {
+
+        let country = leagueToCountry[g.key]
+        if (country in countryGroups) {
+            countryGroups[country].push(g)
+        } else {
+            countryGroups[country] = [g]
+        }
+    }
+    const countries = Object.keys(countryGroups)
+    console.log(countryGroups)
     return (
-        <div>
-            <GroupHeading groupName={groupsName} />
-            {groups.map((sport) => {
-                // console.log('******sp',sport)
+        <>
+            {countries.map((country, i) => {
                 return (
-                    <GroupItem key={sport.id} itemName={sport.details}/>
+                    <CountryGroup leagues={countryGroups[country]} name={country} />
                 )
             })}
+        </>
+    )
+
+}
+
+
+const CountryGroup = ({leagues ,name}) => {
+    const [showDropDown, toggleDropDown] = useState(false);
+    console.log(leagues)
+    return (
+        <div>
+            <GroupHeading groupName={name} showDropDown={showDropDown} onClick={(e)=>{toggleDropDown(!showDropDown)}} />
+            {showDropDown &&  leagues.map((league) => {
+                return (
+                    <GroupItem key={league.id} itemName={league.title}/>
+                )
+            }) }
         </div>
     );
 }

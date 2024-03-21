@@ -37,8 +37,7 @@ export default function withSplashScreen(WrappedComponent) {
 
         render() {
             // while checking user session, show "loading" message
-            if (this.state.loading)
-                return SplashMessage();
+            if (this.state.loading) return SplashMessage();
 
             // otherwise, show the desired route
             return <WrappedComponent {...this.props} />;

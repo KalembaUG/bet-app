@@ -1,0 +1,125 @@
+@use '../abstracts' as *;
+
+.right-navigation{
+    width: 20%;
+    // background-color: red;
+    border: 1px solid $secondary-color;
+
+}
+.right-nav-main{
+    
+}
+.right-nav-item{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 45px;
+        align-items: center;
+        padding:0px 12px 0px 12px;
+        border-left: 4px solid transparent;
+        cursor: pointer;
+
+        .nav-item-icon{
+            height: 16px;
+            width: 16px;
+            margin-right: 5px;
+        }
+    
+        .right-side{
+
+            .nav-item-icon{
+                height: 16px;
+                width: 16px;
+            }
+
+        }
+    
+            font-size: 18px;
+            line-height: 24px;
+
+    
+            border-top: 1px solid #d7d8d2;
+            &.selected{
+                border-left: 4px solid green;
+                color :green;
+                .nav-item-icon,.icon{
+                    fill: green;
+                }
+
+            }
+            
+   
+        }
+
+.right-nav-item-icon-last{
+    margin-left: 12px;
+}
+
+.selected{
+    .nav-item-icon{
+        //fill: white;
+    }
+}
+
+
+.right-side,.left-side,.group-item-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slip-container{
+    width: 35%;
+    // background-color: red;
+    border: 1px solid $secondary-color;
+}
+
+.group-item-icon{
+    margin: 0px 0px 0px 16px;
+    width:14px;
+    height: 14px;
+}
+.sport-select-conatiner{
+
+        background: #fff;
+        border-bottom: 1px solid #252a2d;
+
+        
+    }
+    .sport-select-wrapper{
+        margin:8px 8px;
+
+}
+.sport-select{
+padding: 5px 7px;
+width: 100%;
+border-radius: 0px;
+border:none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+font-size: large;
+border: 1px solid rgb(218, 215, 215);
+&:focus{
+
+    outline: none;
+}
+}
+
+.sport-opt{
+    border: none;
+    &:checked{
+        border: none;
+        background-color: none;
+    }
+    &:focus{
+        background-color: none;
+    }
+}
+@include mobile{
+
+
+    .right-navigation{
+        width: 100%;
+    }
+}
