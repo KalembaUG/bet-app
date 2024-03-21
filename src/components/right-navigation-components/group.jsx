@@ -33,32 +33,65 @@ const Group = ({ }) => {
     }
     const countries = Object.keys(countryGroups)
     console.log(countryGroups)
+    console.log(countries)
+    let popularCountries = mainGroupingsArray[1].countries;
+    let otheCountries = countries.filter((c, i) => popularCountries.indexOf(c) === -1)
+
+    let tournaments = mainGroupingsArray[0].leagues.map((l, i) => {
+        return groups.find((g,i)=>g.key == l)
+        
+    });
+    tournaments = tournaments.filter((t, i) => {
+        return t
+    })
+    // console.log('==============',tournaments)
+    console.log('+++++++++++++',otheCountries)
+    console.log('-------------',popularCountries)
     return (
         <>
-            {countries.map((country, i) => {
-                return (
-                    <CountryGroup leagues={countryGroups[country]} name={country} />
-                )
-            })}
+            
+              
+            <LeagueGroup leagues={tournaments} name={'Tournaments'} />
+            <CountryGroup countries={popularCountries} countryGroups={countryGroups} name={'Popular Countries'} />
+            <CountryGroup  countries={otheCountries} countryGroups={countryGroups} name ={'Other Countries'} />
+            
+                
+          
         </>
     )
 
 }
 
 
-const CountryGroup = ({leagues ,name}) => {
+const LeagueGroup = ({leagues ,name,mainClassName='',subClassName=''}) => {
     const [showDropDown, toggleDropDown] = useState(false);
-    console.log(leagues)
+    // console.log(leagues)
     return (
         <div>
-            <GroupHeading groupName={name} showDropDown={showDropDown} onClick={(e)=>{toggleDropDown(!showDropDown)}} />
+            <GroupHeading groupName={name} showDropDown={showDropDown} className={mainClassName} onClick={(e)=>{toggleDropDown(!showDropDown)}} />
             {showDropDown &&  leagues.map((league) => {
                 return (
-                    <GroupItem key={league.id} itemName={league.title}/>
+                    <GroupItem key={league.id} className={subClassName} itemName={league.title}/>
                 )
             }) }
         </div>
     );
+}
+
+const CountryGroup = ({ name ,countries,countryGroups}) => {
+    const [showDropDown, toggleDropDown] = useState(false);
+    console.log('countries  ',countries)
+    console.log('countryGroups',countryGroups)
+    return (
+        <>
+        <GroupHeading groupName={name} showDropDown={showDropDown} onClick={(e) => { toggleDropDown(!showDropDown) }} />
+        {showDropDown &&  countries.map((country,i) => {
+            return (
+                <LeagueGroup key={i} leagues={countryGroups[country]} mainClassName='minor' name={country}/>
+            )
+        })}
+        </>
+    )
 }
 
 export default Group;

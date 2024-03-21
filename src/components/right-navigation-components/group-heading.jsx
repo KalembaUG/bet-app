@@ -2,11 +2,11 @@ import React from 'react';
 import { DownIcon,UpIcon } from './icons';
 
 
-const GroupHeading = ({groupName ,onClick,showDropDown,className='',numberOfItems='5',image=()=>{ return(<></>)}}) => {
+const GroupHeading = ({ groupName, onClick, showDropDown, className = '', numberOfItems = '5', imgSrc = '' }) => {
     return (
         <div className={'group-heading' + ' ' + className} onClick={onClick}>
             <div>
-            {image()}
+            {imgSrc && <img src={imgSrc} className='flag' alt="" />}
             <span>{groupName}</span>  
 
             </div>
