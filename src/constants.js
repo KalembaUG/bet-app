@@ -6,7 +6,7 @@ export const mainGroupingsArray = [
         countries: null,
         leagues:["soccer_epl","soccer_uefa_champs_league_qualification","soccer_uefa_euro_qualification","soccer_uefa_europa_league","soccer_uefa_europa_conference_league","soccer_italy_serie_a","soccer_germany_bundesliga","soccer_spain_la_liga","soccer_england_league1"]
     },
-    { name:'POPULAR COUNTRIES',countries:["England","France","Germany","Italy","Spain"],leagues:null}
+    { name:'POPULAR COUNTRIES',countries:["England","France","Germany","Italy","Spain","Europe"],leagues:null}
     ,{name:'OTHER COUNTRIES',countries:null,leagues:null}
 ]
 

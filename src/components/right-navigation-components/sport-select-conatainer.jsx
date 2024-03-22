@@ -12,6 +12,7 @@ const SportSelectConatainer = () => {
     const indexOfFootball = selectStore.selected;
     const selectStoreArry = selectStore.selectStoreArray;
 
+    console.log('select store array ',selectStoreArry)
     const selectHandleChange = (e) => {
         dispatch(selectSport(e.target.value))
         // console.log(e.target.value)
@@ -36,8 +37,11 @@ console.log(indexOfFootball)
             <select name="sportSelect" id="sportSelect" onChange={selectHandleChange} className='sport-select'>
                     {selectStoreArry.map((name, i) => {
                         // console.log(i)
-                   return <OptionItem selected={i.toString()===indexOfFootball.toString()} value={(i).toString()} name={name} key={i}/>
-                })}
+                        if (name === "Football" || name === "Basketball" || name === "Tennis") {
+                            return <OptionItem selected={i.toString() === indexOfFootball.toString()} value={(i).toString()} name={name} key={i} />
+                        }
+                        })
+                    }
             </select>
             
             </div>

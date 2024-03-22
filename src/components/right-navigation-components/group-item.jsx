@@ -1,16 +1,15 @@
 import React from 'react';
-import img1 from '../../assets/flags/usa.png'
 import { DownIcon } from './icons';
 
-const GroupItem = ({itemName}) => {
+const GroupItem = ({itemName, imgSrc ,count='',onClick=(e)=>{}}) => {
     return (
-        <div className='group-item'>
+        <div className='group-item' onClick={onClick}>
             <div className="group-item-left">
-                <img src={img1} className='flag' alt="" />
+               {imgSrc && <img src={imgSrc} className='flag' alt="" />}
                 <span>{itemName}</span>
             </div>
             <div className="group-item-right">
-                <span>4</span>
+                {count ? <span>4</span>: ''}
                 <div className='group-item-icon'><DownIcon/></div>
             </div>
         </div>

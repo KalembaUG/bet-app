@@ -7,7 +7,7 @@ import { rightNavMainItems } from '../../constants';
 
 
 
-export const RightNavItem = ({name ,selected, onClick,icon}) => {
+export const RightNavItem = ({name ,selected, onClick,icon,count=''}) => {
     return (
         <div className={selected ? "right-nav-item selected" :"right-nav-item"} onClick={onClick}>
             <div className="right-side">
@@ -16,7 +16,7 @@ export const RightNavItem = ({name ,selected, onClick,icon}) => {
                 <div className="right-nav-item-name">{name}</div>
             </div>
             <div className="left-side">
-                <div className="right-nav-item-number">20</div>
+                {count ? <div className="right-nav-item-number">{ count}</div> :''}
                 <div className="right-nav-item-icon-last">
                     <RightIcon/>
                 </div>

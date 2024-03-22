@@ -2,7 +2,7 @@ import React from 'react';
 import { DownIcon,UpIcon } from './icons';
 
 
-const GroupHeading = ({ groupName, onClick, showDropDown, className = '', numberOfItems = '5', imgSrc = '' }) => {
+const GroupHeading = ({ groupName, onClick, showDropDown, className = '', numberOfItems = '', imgSrc = '' }) => {
     return (
         <div className={'group-heading' + ' ' + className} onClick={onClick}>
             <div>
@@ -11,7 +11,7 @@ const GroupHeading = ({ groupName, onClick, showDropDown, className = '', number
 
             </div>
             <div>
-            <span>{numberOfItems}</span>
+            {numberOfItems ? <span>{numberOfItems}</span> :''}
             <span>{showDropDown ?   <UpIcon/> : <DownIcon/>}</span>
             </div>
         </div>

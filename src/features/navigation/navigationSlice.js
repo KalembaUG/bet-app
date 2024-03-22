@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 const initialState = {
-    bottomNavSelected: 'home',
+    bottomNavSelected: 'find',
     topBarSelected: 'sports',
     rightNavSelected:'HOME'
     

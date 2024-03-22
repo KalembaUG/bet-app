@@ -10,20 +10,25 @@ import { Images } from '../components/image-carousel';
 import IconsRowTop from '../components/icons-row-top';
 import BannerImage from '../components/banner-image';
 import withSplashScreen from '../components/withSplashScreen';
-import { fetchSports } from '../features/sports/sportsSlice';
+import { fetchSports, fetchSprtEvents } from '../features/sports/sportsSlice';
 import { useDispatch,useSelector } from 'react-redux';
 import RightNavigation from '../components/right-navigation-components/right-navigation';
 import Matches from '../components/middle-container/matches';
+import { getSpinnerState, setSpinnerState } from '../features/spinner/spinnerSlice';
+import { Spinner } from '../components/middle-container/matches';
 
 
 const Home = () => {
     const dispatch = useDispatch();
     const mobile = useSelector(listenToWindowChange) <= 767;//767max
     const bottomNavSelected = useSelector(subscribeToBottomNavChange);
+    const showSpinner = useSelector(getSpinnerState);
     
-    
+    console.log('==========spinner', showSpinner)
 
-     dispatch(fetchSports());
+
+    dispatch(fetchSports());
+    // dispatch(fetchSprtEvents('soccer_epl'))
     // console.log('*****************',mobile)
 
     return (
@@ -42,8 +47,9 @@ const Home = () => {
                 <ImageCarousel images={Images} />
                     <IconsRowTop />
                 
-                <Matches/>
-
+               {showSpinner && <Spinner/>
+                    }
+                    <Matches/>
 
                 <BannerImage/>
             </div>)}
